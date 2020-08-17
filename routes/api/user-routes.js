@@ -2,8 +2,8 @@ const router = require('express').Router();
 const { User } = require('../../models');
 
 // GET /api/users
-router.get('/', (res, req) => {
-    // Access our User model and run.findAll() method
+router.get('/', (req, res) => {
+    // Access our User model and run .findAll() method)
     User.findAll()
         .then(dbUserData => res.json(dbUserData))
         .catch(err => {
