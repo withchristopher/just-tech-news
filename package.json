@@ -1,27 +1,28 @@
 {
-    "name": "w13",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "start": "node server.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/withchristopher/just-tech-news.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/withchristopher/just-tech-news/issues"
-    },
-    "homepage": "https://github.com/withchristopher/just-tech-news#readme",
-    "dependencies": {
-        "bcrypt": "^5.0.0",
-        "dotenv": "^8.2.0",
-        "express": "^4.17.1",
-        "mysql2": "^2.1.0",
-        "sequelize": "^6.3.4"
-    }
+  "name": "w13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/withchristopher/just-tech-news.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/withchristopher/just-tech-news/issues"
+  },
+  "homepage": "https://github.com/withchristopher/just-tech-news#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^6.3.4"
+  },
+  "devDependencies": {}
 }
