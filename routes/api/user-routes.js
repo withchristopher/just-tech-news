@@ -61,7 +61,7 @@ router.post('/login', (req, res) => {
             return;
         }
         // add comment syntax in front of this line in the .then()
-        res.json({ user: dbUserData });
+        //  res.json({ user: dbUserData });
     })
 })
 
