@@ -60,10 +60,16 @@ router.post('/login', (req, res) => {
             res.status(400).json({ message: 'No user with that email address! ' });
             return;
         }
-        // add comment syntax in front of this line in the .then()
-        //  res.json({ user: dbUserData });
-    })
-})
+
+        const validPassword = dbUserData.checkPassword(req.body.password);
+        if (!validPassword) {
+            res.status(400).json({ message: 'Incorrect password!' });
+            return;
+        }
+        res.json({ user: dbUserData, message: 'You are logged in!' });
+
+    });
+});
 
 // PUT /api/users/1
 router.put('/:id', (req, res) => {
