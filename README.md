@@ -7,6 +7,10 @@ To install from GitHub, run the following commands:
 * `npm init --y`
 * `npm install`
 
-# Running
-To run after installation above
+Navigate and update .env parameters:
+DB_NAME='just_tech_news_db'
+DB_USER= 'root'
+DB_PW= ''
+
+# Run server locally
 * `npm start`
