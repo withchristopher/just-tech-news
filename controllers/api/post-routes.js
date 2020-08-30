@@ -84,7 +84,7 @@ router.post('/', (req, res) => {
     Post.create({
             title: req.body.title,
             post_url: req.body.post_url,
-            user_id: req.body.user_id
+            user_id: req.session.user_id
         })
         .then(dbPostData => res.json(dbPostData))
         .catch(err => {
