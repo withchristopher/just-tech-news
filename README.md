@@ -14,3 +14,6 @@ DB_PW= ''
 
 # Run server locally
 * `npm start`
+
+# How to Use
+To view the site running live, login here: 
